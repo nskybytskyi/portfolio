@@ -1,8 +1,17 @@
 body {
     font-family: Garamond, serif;
+    background-color: powderblue;
 }
 
 h1,
 h2 {
     font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    color: hotpink;
+}
+
+h2::first-letter {
+    color: black;
 }
